@@ -9,3 +9,4 @@ venv/
 coverage/
 pytest_cache/
 data/*.jsonl
+tests/data/*.jsonl
