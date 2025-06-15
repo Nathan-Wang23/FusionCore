@@ -1,4 +1,4 @@
-from ..main.embed import generate_embedding
+from memory_drop.main.embed import generate_embedding
 import numpy as np
 
 def test_generate_embedding():

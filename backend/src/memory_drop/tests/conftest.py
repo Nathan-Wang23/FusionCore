@@ -1,6 +1,6 @@
 import pytest
 from pathlib import Path
-from ..main.schema import MemoryDrop
+from memory_drop.main.schema import MemoryDrop
 
 BASE_TEST_DIR = Path(__file__).parent.resolve()
 DATA_DIR = BASE_TEST_DIR / "data"

@@ -1,7 +1,7 @@
-from .schema import MemoryDrop
-from .embed import generate_embedding
-from .memory_log import log_memory
-from .constants import MEMORY_LOG_PATH
+from memory_drop.main.schema import MemoryDrop
+from memory_drop.main.embed import generate_embedding
+from memory_drop.main.memory_log import log_memory
+from memory_drop.main.constants import MEMORY_LOG_PATH
 from pathlib import Path
 from typing import List
 

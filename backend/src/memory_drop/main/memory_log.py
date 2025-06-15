@@ -1,7 +1,7 @@
 import json
 from pathlib import Path
-from .schema import MemoryDrop
-from .constants import MEMORY_LOG_PATH
+from memory_drop.main.schema import MemoryDrop
+from memory_drop.main.constants import MEMORY_LOG_PATH
 
 def log_memory(memory: MemoryDrop, path: Path = MEMORY_LOG_PATH):
     path.parent.mkdir(parents=True, exist_ok=True)

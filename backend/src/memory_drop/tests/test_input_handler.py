@@ -1,6 +1,6 @@
-from ..main.input_handler import handle_user_input
-from ..main.memory_log import load_memory
-from ..main.schema import MemoryDrop
+from memory_drop.main.input_handler import handle_user_input
+from memory_drop.main.memory_log import load_memory
+from memory_drop.main.schema import MemoryDrop
 
 def test_handle_user_input(get_test_log_path):
     test_log_file = get_test_log_path("test_handle_user_input")  # 🎯 Unique path per test
